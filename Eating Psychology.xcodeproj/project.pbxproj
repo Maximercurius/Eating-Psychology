@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		0020D16728F32085008DED85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D16628F32085008DED85 /* AppDelegate.swift */; };
 		0020D16928F32085008DED85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D16828F32085008DED85 /* SceneDelegate.swift */; };
-		0020D16B28F32085008DED85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D16A28F32085008DED85 /* ViewController.swift */; };
-		0020D16E28F32085008DED85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0020D16C28F32085008DED85 /* Main.storyboard */; };
 		0020D17028F32088008DED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020D16F28F32088008DED85 /* Assets.xcassets */; };
 		0020D17328F32088008DED85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0020D17128F32088008DED85 /* LaunchScreen.storyboard */; };
+		0020D17D28F32955008DED85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D17C28F32955008DED85 /* ViewController.swift */; };
+		0020D18328F32D27008DED85 /* EPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18228F32D27008DED85 /* EPImageView.swift */; };
+		0020D18528F32D45008DED85 /* EPTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18428F32D45008DED85 /* EPTitleLabel.swift */; };
+		0020D18828F47E44008DED85 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18728F47E44008DED85 /* FoodCell.swift */; };
+		0020D18B28F48314008DED85 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18A28F48314008DED85 /* Sections.swift */; };
+		0020D18D28F48398008DED85 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18C28F48398008DED85 /* Items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0020D16328F32085008DED85 /* Eating Psychology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eating Psychology.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0020D16628F32085008DED85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0020D16828F32085008DED85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0020D16A28F32085008DED85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0020D16D28F32085008DED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0020D16F28F32088008DED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0020D17228F32088008DED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0020D17428F32088008DED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0020D17C28F32955008DED85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0020D18228F32D27008DED85 /* EPImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPImageView.swift; sourceTree = "<group>"; };
+		0020D18428F32D45008DED85 /* EPTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPTitleLabel.swift; sourceTree = "<group>"; };
+		0020D18728F47E44008DED85 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		0020D18A28F48314008DED85 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		0020D18C28F48398008DED85 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		0020D16528F32085008DED85 /* Eating Psychology */ = {
 			isa = PBXGroup;
 			children = (
-				0020D16628F32085008DED85 /* AppDelegate.swift */,
-				0020D16828F32085008DED85 /* SceneDelegate.swift */,
-				0020D16A28F32085008DED85 /* ViewController.swift */,
-				0020D16C28F32085008DED85 /* Main.storyboard */,
-				0020D16F28F32088008DED85 /* Assets.xcassets */,
-				0020D17128F32088008DED85 /* LaunchScreen.storyboard */,
+				0020D18928F482D2008DED85 /* Model */,
+				0020D19028F48516008DED85 /* CustomViews */,
+				0020D18F28F484CA008DED85 /* Screen */,
+				0020D18E28F48466008DED85 /* Support */,
 				0020D17428F32088008DED85 /* Info.plist */,
 			);
 			path = "Eating Psychology";
+			sourceTree = "<group>";
+		};
+		0020D18928F482D2008DED85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0020D18A28F48314008DED85 /* Sections.swift */,
+				0020D18C28F48398008DED85 /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0020D18E28F48466008DED85 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0020D16628F32085008DED85 /* AppDelegate.swift */,
+				0020D16828F32085008DED85 /* SceneDelegate.swift */,
+				0020D16F28F32088008DED85 /* Assets.xcassets */,
+				0020D17128F32088008DED85 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0020D18F28F484CA008DED85 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0020D17C28F32955008DED85 /* ViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0020D19028F48516008DED85 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0020D19128F48529008DED85 /* Cell */,
+				0020D18228F32D27008DED85 /* EPImageView.swift */,
+				0020D18428F32D45008DED85 /* EPTitleLabel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0020D19128F48529008DED85 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0020D18728F47E44008DED85 /* FoodCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +179,6 @@
 			files = (
 				0020D17328F32088008DED85 /* LaunchScreen.storyboard in Resources */,
 				0020D17028F32088008DED85 /* Assets.xcassets in Resources */,
-				0020D16E28F32085008DED85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0020D16B28F32085008DED85 /* ViewController.swift in Sources */,
+				0020D18D28F48398008DED85 /* Items.swift in Sources */,
+				0020D17D28F32955008DED85 /* ViewController.swift in Sources */,
+				0020D18B28F48314008DED85 /* Sections.swift in Sources */,
+				0020D18828F47E44008DED85 /* FoodCell.swift in Sources */,
 				0020D16728F32085008DED85 /* AppDelegate.swift in Sources */,
+				0020D18528F32D45008DED85 /* EPTitleLabel.swift in Sources */,
+				0020D18328F32D27008DED85 /* EPImageView.swift in Sources */,
 				0020D16928F32085008DED85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0020D16C28F32085008DED85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0020D16D28F32085008DED85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0020D17128F32088008DED85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +340,10 @@
 				INFOPLIST_FILE = "Eating Psychology/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +351,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "FilGudInc.Eating-Psychology";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +372,10 @@
 				INFOPLIST_FILE = "Eating Psychology/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +383,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "FilGudInc.Eating-Psychology";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
