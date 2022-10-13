@@ -10,4 +10,5 @@ import Foundation
 struct FoodItem: Codable {
     var title: String
     var image: String
+    
 }
