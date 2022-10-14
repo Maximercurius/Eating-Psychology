@@ -15,9 +15,9 @@
 		0020D18328F32D27008DED85 /* EPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18228F32D27008DED85 /* EPImageView.swift */; };
 		0020D18528F32D45008DED85 /* EPTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18428F32D45008DED85 /* EPTitleLabel.swift */; };
 		0020D18828F47E44008DED85 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18728F47E44008DED85 /* FoodCell.swift */; };
-		0020D18D28F48398008DED85 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D18C28F48398008DED85 /* Items.swift */; };
 		0020D19428F7265F008DED85 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D19328F7265F008DED85 /* NetworkManager.swift */; };
 		0020D19628F88A6E008DED85 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D19528F88A6E008DED85 /* Sections.swift */; };
+		0020D19928F9BAC9008DED85 /* EPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020D19828F9BAC9008DED85 /* EPError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		0020D18228F32D27008DED85 /* EPImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPImageView.swift; sourceTree = "<group>"; };
 		0020D18428F32D45008DED85 /* EPTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPTitleLabel.swift; sourceTree = "<group>"; };
 		0020D18728F47E44008DED85 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		0020D18C28F48398008DED85 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		0020D19328F7265F008DED85 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0020D19528F88A6E008DED85 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		0020D19828F9BAC9008DED85 /* EPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		0020D16528F32085008DED85 /* Eating Psychology */ = {
 			isa = PBXGroup;
 			children = (
+				0020D19728F9BA96008DED85 /* Utilities */,
 				0020D19228F72637008DED85 /* Managers */,
 				0020D18928F482D2008DED85 /* Model */,
 				0020D19028F48516008DED85 /* CustomViews */,
@@ -79,7 +80,6 @@
 		0020D18928F482D2008DED85 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0020D18C28F48398008DED85 /* Items.swift */,
 				0020D19528F88A6E008DED85 /* Sections.swift */,
 			);
 			path = Model;
@@ -128,6 +128,14 @@
 				0020D19328F7265F008DED85 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		0020D19728F9BA96008DED85 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0020D19828F9BAC9008DED85 /* EPError.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,9 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0020D19428F7265F008DED85 /* NetworkManager.swift in Sources */,
-				0020D18D28F48398008DED85 /* Items.swift in Sources */,
 				0020D17D28F32955008DED85 /* ViewController.swift in Sources */,
 				0020D18828F47E44008DED85 /* FoodCell.swift in Sources */,
+				0020D19928F9BAC9008DED85 /* EPError.swift in Sources */,
 				0020D16728F32085008DED85 /* AppDelegate.swift in Sources */,
 				0020D18528F32D45008DED85 /* EPTitleLabel.swift in Sources */,
 				0020D18328F32D27008DED85 /* EPImageView.swift in Sources */,
