@@ -14,7 +14,7 @@ class NetworkManager {
      
      private init() {}
      
-     func getFoodAdviceSection(for section: String, completed: @escaping (Result<[Section], EPError>) -> Void) {
+     func getFoodAdviceSection(completed: @escaping (Result<[Section], EPError>) -> Void) {
          
          guard let url = URL(string: baseURL) else {
              completed(.failure(.unableToCoplete))
@@ -45,7 +45,7 @@ class NetworkManager {
          }
          task.resume()
      }
-    func getFoodAdviceItem(for item: String, completed: @escaping (Result<[Item], EPError>) -> Void) {
+    func getFoodAdviceItem(completed: @escaping (Result<[Item], EPError>) -> Void) {
                 
         guard let url = URL(string: baseURL) else {
             completed(.failure(.unableToCoplete))

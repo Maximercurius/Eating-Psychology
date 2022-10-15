@@ -22,12 +22,10 @@ class FoodCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    #warning("edit meal model to set text here")
-    
-//    func set(follower: Follower) {
-//        usernameLabel.text = follower.login
-//
-//    }
+    func set(foodAdviceItem: Item) {
+        foodNameLabel.text = foodAdviceItem.title
+
+    }
     
     private func configure() {
         addSubview(foodImageView)
